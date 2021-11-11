@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+.service-details{
+    background-image:url('https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    -webkit-background-size:cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.custom-card{
+    opacity: 0.8;
+}
+
+.form-custom input{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}

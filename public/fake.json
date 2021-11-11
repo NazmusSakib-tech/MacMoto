@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Diavel 1260 S",
+        "shortdescribe": "Powerful. Muscular. But also agile and effective between the curves for maximum riding enjoyment.The Diavel 1260 combines the performance of a maxi-naked with the ergonomics of a muscle cruiser. Its design reinterprets the Diavel style with a contemporary look and integrates perfectly the 162 HP Testastretta DVT 1262 engine, beating heart of this new Diavel 1260, now compliant with Euro 5 regulation standards",
+        "price": 2000,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/1RvUevmAcjNVCMTA98vJVO/eee98a808ce8027797b0337e1c351eeb/MY-22-Diavel-1260-S-BYG-01-Model-Blocks-630x390-v02.png"
+    },
+    {
+        "id": 2,
+        "name": "Hypermotard 950",
+        "shortdescribe": "Challenge accepted. For the 2022 range, available from June 2021, Ducati has updated the Hypermotard 950 family to Euro 5 regulation standards* and introduces the new livery for the SP version. The update guarantees the same values in terms of torque and output.",
+        "price": 2500,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/35BakkRe07iCPsmLQpdRW5/13015b1ae58afc815b10002a5a97f0ad/MY-21-HYM-950-EU5-01-Model-Blocks-630x390.png"
+    },
+    {
+        "id": 3,
+        "name": "Monstar +",
+        "shortdescribe": "The new Monster represents all the essence of Ducati in the lightest, most compact and essential form possible. You can already guess it from the name: Monster, nothing else.The design of the new Monster is exactly what you might expect from the sport naked par excellence, but in an even more cutting-edge and modern guise. Slinky yet aggressive curves. Classic details with a modern twist. A design that aims to offer pure Monster-style emotion.",
+        "price": 3000,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3Qd6uyFBdJG1ncF2I0bZBG/9967cd42f7073536ba15d34ccc0f3820/MY-21-Monster-Plus-Red-01-Model-Blocks-630x390-v02.png"
+    },
+    {
+        "id": 4,
+        "name": "Multistrada V2 S",
+        "shortdescribe": "The Ducati Multistrada family continues its evolution with the presentation of the new Multistrada V2: the ideal bike to fully enjoy every route, versatile in everyday use and in the city, always with the sportiness and unmistakable style that characterize every Ducati.",
+        "price": 3500,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3epSXeqGLPFO322QUwXLkX/0a3bc977b8ef7f543fcb90ee2452331e/MY-22-MTS-V2S-Rd-Model-Blocks-630x390.png"
+    },
+    {
+        "id": 5,
+        "name": "Multistrada V4 S",
+        "shortdescribe": "Sportier and more touring, stronger in off-road use and easier in urban action. Lightweight and compact, with the new 170 HP V4 Granturismo engine for a sporty and exciting ride on mixed terrain.",
+        "price": 3000,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/6FWTbfWeafioppSg79buHV/cfef0ecaee767524f6723653df3faad3/MY-21-MTS-V4-S-Rd-01-Model-Blocks-630x390-v03.png"
+    },
+    {
+        "id": 6,
+        "name": "Multistrada V4 Pikes Peak",
+        "shortdescribe": "The Multistrada V4 Pikes Peak was developed to bring the sporty qualities of the Multistrada V4 S to the extreme: a dedicated riding position, 17 inch wheels with sports tyres, single-sided swingarm, Öhlins suspension and the new Race Riding Mode.",
+        "price": 3000,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/7FkMjxrmTeZKuMgPBYk0bO/45c4ef2ec04fe566a663c2cb9ee1c796/MY-22-MTS-V4-PP-Model-Blocks-630x390.png"
+    },
+    {
+        "id": 7,
+        "name": "Streetfighter V4 S",
+        "shortdescribe": "The Streetfighter is the result of the “Fight Formula”: the Panigale V4 stripped of the fairings, with a high and wide handlebar, 178 kg on the scale, powered by 1100 cc Desmosedici Stradale delivering 208 hp kept in hand by biplane wings and a complete electronic package.",
+        "price": 4000,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3LYknQ6Hy73yp6RX3twTgQ/0fe6e63d3b4d454d0e6928a3cf82f0f7/MY-21-SF-V4-S-Bk-01-Model-Blocks-630x390-v03.png"
+    },
+    {
+        "id": 8,
+        "name": "Panigale V2 Bayliss 1st Championship 20th Anniversary",
+        "shortdescribe": "The new Panigale V2 Bayliss 1st Championship 20th Anniversary celebrates one of the most successful riders of all time and the symbol of an entire community: Troy Bayliss. A special motorcycle, manufactured in a numbered series, the pure expression of Ducati sportsmanship and a tribute to a timeless passion.",
+        "price": 3500,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3h6XJ4UPPocseDXmfRvIIO/6cbeabf0798c3361ea4a28372959e205/MY-22-PV2-Bayliss-01-Model-Blocks-630x390-v02.png"
+    },
+    {
+        "id": 9,
+        "name": "Panigale V4 SP",
+        "shortdescribe": "Ducati expands the Panigale V4 family by introducing the new numbered Panigale V4 SP version, which certifies the return after many years of the initials “SP” (Sport Production) on the fairing of a Ducati super sports bike. ",
+        "price": 3200,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/4WNZEAzGhefjGPKOv1qOLs/63a3f203303ac23706c025737e6eefc3/MY-21-Pan-V4-SP-01-Model-Blocks-630x390-v03.png"
+    },
+    {
+        "id": 10,
+        "name": "SuperSport 950",
+        "shortdescribe": "The Ducati road sports bike changes its name and becomes SuperSport 950, also renewing its aesthetics, electronic equipment and richness of equipment, as well as becoming compliant with Euro 5 anti-pollution regulations. ",
+        "price": 3400,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3dRZ9IITrU7jIkjQQQ3Juo/dbe261474646dc89e2d044339f31f5a4/MY-21-SS-950-S-Wh-01-Model-Blocks-630x390-v03.png"
+    },
+    {
+        "id": 11,
+        "name": "Scrambler Ducati 1100 Tribute PRO",
+        "shortdescribe": "2021 marks the 50th anniversary of the introduction of the air-cooled twin-cylinder engine on a Ducati, seen for the first time in 1971. For the occasion, Scrambler Ducati has decided to pay homage to the history of this famous engine by adding a celebratory model to the range: this is how the Scrambler Ducati 1100 Tribute PRO was born.",
+        "price": 3400,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/3ylApicpoYv3AjrfaqVDRp/d34c05cc4e4b01536d3116fc0730b1f4/MY-22-SCR-1100-Tribute-Model-Blocks-630x390.png"
+    },
+    {
+        "id": 12,
+        "name": "TK-01RR",
+        "shortdescribe": "Every element of the TK-01RR is oriented towards the most challenging e-enduro use, from the design of the superior quality components such as the 12-speed drive unit and the Shimano XT 4-piston brakes, the brand new 180 mm Öhlins RXF 38 fork and the Öhlins TTX shock absorber.",
+        "price": 4200,
+        "image": "https://images.ctfassets.net/x7j9qwvpvr5s/bJD7wmtuIXxY7GyzcMfrd/63a89bfb897d2b09313941b0923b831a/MY21-TK-01RR-model-block-630x390.png"
+    }
+    
+]

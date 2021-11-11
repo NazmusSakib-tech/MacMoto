@@ -1,0 +1,14 @@
+.all-products{
+    background-image:url('https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    -webkit-background-size:cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    
+}
+
+/* .card-description{
+    font-weight: 700; 
+} */

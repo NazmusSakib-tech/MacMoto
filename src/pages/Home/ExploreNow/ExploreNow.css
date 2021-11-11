@@ -1,0 +1,14 @@
+.explore{
+    background-image:url('https://images.ctfassets.net/x7j9qwvpvr5s/6j3wJtXvUY039Q41Jcx61v/a937b661202c491756e7e83eb5912712/Shop-banner-full-1330x600.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    -webkit-background-size:cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    color: rgb(252, 170, 19);
+    font-weight: 800;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
