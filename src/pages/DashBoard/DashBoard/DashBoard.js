@@ -33,6 +33,7 @@ import AddProduct from '../AddProduct/AddProduct';
 import useAuth from '../../../hooks/useAuth';
 import AdminRoute from '../../Login/AdminRoute/AdminRoute';
 import ManageProducts from '../ManageProducts/ManageProducts';
+import Review from '../Review/Review';
 
 const drawerWidth = 240;
 
@@ -204,6 +205,9 @@ export default function DashBoard() {
                         <Switch>
                             <Route exact path={`${path}`}>
                                 <MyOrders></MyOrders>
+                            </Route>
+                            <Route exact path={`${path}/review`}>
+                                <Review></Review>
                             </Route>
                         </Switch>
                     }
