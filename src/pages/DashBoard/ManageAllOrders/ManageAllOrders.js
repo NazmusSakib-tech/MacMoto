@@ -75,7 +75,7 @@ const ManageAllOrders = () => {
                                         }
                                         <h6 className="text-success">E-mail: {orders?.email}</h6>
                                         <div>
-                                            <button onClick={() => handleDeleteOrders(orders?._id)} className="btn btn-danger">Delete</button>
+                                            <button onClick={() => handleDeleteOrders(orders?._id)} className="btn btn-danger mobile-space">Delete</button>
                                             {orders.status === "Shipped" ? <button onClick={() => handleStatusUpdate(orders?._id)} className="btn btn-warning ms-2 disabled">Update Status</button> :
                                                 <button onClick={() => handleStatusUpdate(orders?._id)} className="btn btn-warning ms-2">Update Status</button>
                                             }

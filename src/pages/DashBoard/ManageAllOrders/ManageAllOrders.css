@@ -14,3 +14,8 @@
 .manage-all-orders h2{
     font-family: cursive;
 }
+
+
+@media only screen and (max-width: 376px) {
+    .mobile-space {margin-bottom:10px;}
+    }
