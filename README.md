@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# MacMoto
 
 This project was bootstrapped with [Project Link](https://mac-moto.web.app/).
 
