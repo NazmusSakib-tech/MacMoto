@@ -47,14 +47,14 @@ const ManageProducts = () => {
                             manageProducts.map(product =>(
                                 
                                 <>
-                                    <div className="col ">
+                                    <div className="col">
                                         <div className="card h-100">
                                             <img src={product?.image} className="card-img-top" alt="..." />
                                             <div className="card-body text-start">
-                                                <h2 className="card-title">{product?.name}</h2>
-                                                <p className="card-text card-description text-start">{product?.shortdescribe}</p>
+                                                <h2 className="card-title px-3">{product?.name}</h2>
+                                                <p className="card-text card-description text-start p-3">{product?.shortdescribe}</p>
                                             </div>
-                                            <div className="card-footer">
+                                            <div className="card-footer p-4">
                                                 <h3 className="text-bold"> Price: ${product?.price}</h3>
                                                 <button onClick={()=>handleDeleteProduct(product._id)} className="btn btn-danger fw-bold">Delete Product</button>
                                             </div>

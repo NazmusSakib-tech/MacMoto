@@ -56,7 +56,7 @@ const ManageAllOrders = () => {
 
     return (
         <div className="manage-all-orders p-3">
-            <h2 className="p-3 fw-bold text-primary"> <u>Manage All Orders</u></h2>
+            <h2 className="p-3 fw-bold text-primary"> <u><span className="text-warning">Manage All</span> Orders <span className="text-danger">({allOrders?.length})</span></u></h2>
             <div className=" mb-3 container" style={{ maxWidth: "800px" }}>
                 <div >
 

@@ -31,8 +31,8 @@ const MakeAdmin = () => {
             })
     }
     return (
-        <div style={{minHeight: '70vh', backgroundColor: 'white'}}>
-            <h3 className="pt-5">Make Admin For Desired Person</h3>
+        <div className="pt-5" style={{minHeight: '70vh', backgroundColor: 'white'}}>
+            <h3 className="pt-5 fw-bold">Make Admin For Desired Person</h3>
             <form onSubmit={handleAdminSubmit}>
                 <TextField id="standard-basic"
                     sx={{ width: "50%", m: 1 }}
