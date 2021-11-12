@@ -34,7 +34,7 @@ const Login = () => {
     return (
         <Grid container spacing={2} sx={{ display: 'flex', alignItems: 'center' }}>
             <Grid item xs={12} md={6}>
-                <Typography variant="body1" gutterBottom> Login</Typography>
+                <Typography variant="body1" gutterBottom> <h3>Login</h3></Typography>
                 {isLoading && <CircularProgress color="success" />}
                 <form onSubmit={handleLoginSubmit}>
                     <TextField
@@ -44,7 +44,7 @@ const Login = () => {
                         name="email"
                         type="email"
                         onChange={handleOnChange}
-                        variant="standard" /> <br />
+                        variant="outlined" /> <br />
                     <TextField
                         sx={{ width: "75%", m: 1 }}
                         id="outlined-password-input"
@@ -53,7 +53,7 @@ const Login = () => {
                         name="password"
                         onChange={handleOnChange}
                         autoComplete="current-password"
-                        variant="standard"
+                        variant="outlined"
                     />
                     <NavLink to='/register'> <Button>Is New User, Register</Button></NavLink>
                     <Button sx={{ width: "75%", m: 1 }} type="submit" variant="contained">Login</Button>

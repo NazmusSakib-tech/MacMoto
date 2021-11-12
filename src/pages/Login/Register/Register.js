@@ -37,7 +37,7 @@ const Register = () => {
     return (
         <Grid container spacing={2} sx={{ display: 'flex', alignItems: 'center' }}>
             <Grid item xs={12} md={6}>
-                <Typography variant="body1" gutterBottom> Register</Typography>
+                <Typography variant="body1" gutterBottom> <h3>Register</h3></Typography>
                 {!isLoading && <form onSubmit={handleLoginSubmit}>
 
                     <TextField
@@ -47,7 +47,7 @@ const Register = () => {
                         type="text"
                         name="name"
                         onBlur={handleOnBlur}
-                        variant="standard" /> <br />
+                        variant="outlined" /> <br />
                     <TextField
                         sx={{ width: "75%", m: 1 }}
                         id="standard-basic"
@@ -55,7 +55,7 @@ const Register = () => {
                         type="email"
                         name="email"
                         onBlur={handleOnBlur}
-                        variant="standard" /> <br />
+                        variant="outlined" /> <br />
                     <TextField
                         sx={{ width: "75%", m: 1 }}
                         id="outlined-password-input"
@@ -64,7 +64,7 @@ const Register = () => {
                         name="password"
                         onBlur={handleOnBlur}
                         autoComplete="current-password"
-                        variant="standard"
+                        variant="outlined"
                     />
                     <TextField
                         sx={{ width: "75%", m: 1 }}
@@ -74,7 +74,7 @@ const Register = () => {
                         name="password2"
                         onBlur={handleOnBlur}
                         autoComplete="current-password"
-                        variant="standard"
+                        variant="outlined"
                     />
                     <NavLink to='/Login'> <Button>Is Registered, Please Login</Button></NavLink>
                     <Button sx={{ width: "75%", m: 1 }} type="submit" variant="contained">Register</Button>
