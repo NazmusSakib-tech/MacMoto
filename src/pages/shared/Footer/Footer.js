@@ -49,10 +49,10 @@ const Footer = () => {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 {/* <!-- Content --> */}
                                 <h6 className="text-uppercase fw-bold mb-4">
-                                    <i className="fas fa-gem me-3"></i>TravelBea
+                                    <i className="fas fa-gem me-3"></i>MacMoto
                                 </h6>
                                 <p>
-                                Man cannot discover new oceans unless he has the courage to lose sight of the shore.
+                                If you want to be happy for a day, if you want to be happy for a year, Marry. If you want to be happy for a lifetime, Ride a Bike.
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}
@@ -64,16 +64,16 @@ const Footer = () => {
                                     Products
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Holiday Package</a>
+                                    <a href="#!" className="text-reset">Recent Products </a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Tickets</a>
+                                    <a href="#!" className="text-reset">Top Bikes</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Flight</a>
+                                    <a href="#!" className="text-reset">Bikes Blogs</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Schedule</a>
+                                    <a href="#!" className="text-reset">Racing Bikes</a>
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}
@@ -105,7 +105,7 @@ const Footer = () => {
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Contact
                                 </h6>
-                                <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                <p><i className="fas fa-home me-3"></i> Dhaka Bangladesh, Mirpur-1216, BD</p>
                                 <p>
                                     <i className="fas fa-envelope me-3"></i>
                                     info@example.com
@@ -123,7 +123,7 @@ const Footer = () => {
                 {/* <!-- Copyright --> */}
                 <div className="text-center p-4" style={{backgroundColor: "blue"}}>
                     © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="">TravelBea</a>
+                    <a className="text-reset fw-bold">MacMoto</a>
                 </div>
                 {/* <!-- Copyright --> */}
             </footer>

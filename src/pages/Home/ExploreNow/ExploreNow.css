@@ -1,12 +1,12 @@
 .explore{
-    background-image:url('https://images.ctfassets.net/x7j9qwvpvr5s/6j3wJtXvUY039Q41Jcx61v/a937b661202c491756e7e83eb5912712/Shop-banner-full-1330x600.jpg');
+    background-image:url('https://images.pexels.com/photos/9142646/pexels-photo-9142646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
     -webkit-background-size:cover;
     min-height: 500px;
     background-attachment: fixed;
-    color: rgb(252, 170, 19);
+    color: rgb(245, 250, 249);
     font-weight: 800;
     display:flex;
     justify-content:center;

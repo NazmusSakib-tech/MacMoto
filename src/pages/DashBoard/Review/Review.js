@@ -6,7 +6,8 @@ const Review = () => {
     const { register, handleSubmit, reset } = useForm();
     const { user } = useAuth();
     const onSubmit = data => {
-        fetch('http://localhost:5000/addRatings', {
+        // data.ratings = Math.round(parseFloat(data.ratings));
+        fetch('https://polar-cove-41231.herokuapp.com/addRatings', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
@@ -24,8 +25,8 @@ const Review = () => {
     };
     return (
         <div>
-            <div className="add-package">
-                <h2>Please Give Your Reviews</h2>
+            <div className="user-review">
+                <h2 className="text-white p-4">Please Give Your Reviews</h2>
                 <form className="form-custom p-3" onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("name")} placeholder="Name" defaultValue={user?.displayName} required /> <br />
                     <input className="mt-2" type="text" {...register("reviewDetails")} placeholder="Review Details" required /> <br />

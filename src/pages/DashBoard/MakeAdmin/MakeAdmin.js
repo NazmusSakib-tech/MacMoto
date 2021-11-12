@@ -16,7 +16,7 @@ const MakeAdmin = () => {
     const handleAdminSubmit = (e) => {
         e.preventDefault();
         const user = { email };
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://polar-cove-41231.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: { 
                 'Content-Type': 'application/json' },
@@ -31,7 +31,8 @@ const MakeAdmin = () => {
             })
     }
     return (
-        <div>
+        <div style={{minHeight: '70vh', backgroundColor: 'lightgray'}}>
+            <h3 className="pt-5">Make Admin For Desired Person</h3>
             <form onSubmit={handleAdminSubmit}>
                 <TextField id="standard-basic"
                     sx={{ width: "50%", m: 1 }}
@@ -39,7 +40,7 @@ const MakeAdmin = () => {
                     type="email"
                     variant="standard"
                     onBlur={handleOnBlur}
-                />
+                /> <br />
                 <Button type="submit" variant="contained">Make Admin</Button>
             </form>
             {success && <Alert severity="success">Make Admin Successfully</Alert>}

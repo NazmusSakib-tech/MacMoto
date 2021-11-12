@@ -5,16 +5,17 @@ const HomeReview = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://polar-cove-41231.herokuapp.com/reviews')
             .then((response) => response.json())
             .then(result => setReviews(result))
     }, [])
 
     console.log(reviews);
     return (
-        <div>
-            <h2>Our Clients Reviews</h2>
-            <div className="container ratings">
+        <div className="p-4"> 
+            <h2 className="text-primary fw-bold text-decoration-underline">Our Happy Customers</h2>
+            <div className="container ratings p-4">
+                
                 <div className="row">
                     {
                         reviews.map(review => (
@@ -26,41 +27,51 @@ const HomeReview = () => {
                                         className="rounded-circle" alt="" />
                                     <h4>{review?.name}</h4>
                                     <p style={{ fontWeight: 600 }}>{review?.reviewDetails}</p>
-                                    {   
-                                        review?.ratings==="4"?
-                                        <h6>Ratings: <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        </h6>: ""
-                                        
+                                    {
+                                        review?.ratings === "5" ?
+                                            <h6>Ratings: <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </h6> : ""
+
                                     }
-                                    {   
-                                        review?.ratings==="3"?
-                                        <h6>Ratings: <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        
-                                        </h6>: ""
-                                        
+                                    {
+                                        review?.ratings === "4" ?
+                                            <h6>Ratings: <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </h6> : ""
+
                                     }
-                                    {   
-                                        review?.ratings==="2"?
-                                        <h6>Ratings: <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        
-                                        
-                                        </h6>: ""
-                                        
+                                    {
+                                        review?.ratings === "3" ?
+                                            <h6>Ratings: <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </h6> : ""
+
                                     }
-                                    {   
-                                        review?.ratings==="1"?
-                                        <h6>Ratings: <i class="fas fa-star"></i>
-                                        
-                                        
-                                        
-                                        </h6>: ""
-                                        
+                                    {
+                                        review?.ratings === "2" ?
+                                            <h6>Ratings: <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+
+                                            </h6> : ""
+
+                                    }
+                                    {
+                                        review?.ratings === "1" ?
+                                            <h6>Ratings: <i class="fas fa-star"></i>
+
+
+
+                                            </h6> : ""
+
                                     }
                                 </div>
 

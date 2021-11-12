@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import logo1 from '../../../utilities/images/brand Logo/logo1.jfif'
 const Navigation = () => {
-    const {logOut, user} = useAuth()
+    const { logOut, user } = useAuth()
     return (
         <>
             <Navbar collapseOnSelect expand="lg">
@@ -28,8 +28,8 @@ const Navigation = () => {
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link activeClassName="on-select" className="text-dark fw-bold mouse-hover" as={NavLink} to="/home">Home</Nav.Link>
                         <Nav.Link activeClassName="on-select" className="text-dark fw-bold mouse-hover" as={NavLink} to="/allProducts">Our All Products</Nav.Link>
-                        <Nav.Link activeClassName="on-select" className="text-dark fw-bold mouse-hover ms-2" as={NavLink} to="/dashboard">Dashboard</Nav.Link>
-                        
+                        {user?.email && <Nav.Link activeClassName="on-select" className="text-dark fw-bold mouse-hover ms-2" as={NavLink} to="/dashboard">Dashboard</Nav.Link>}
+
 
                         {!user?.email && <Nav.Link activeClassName="on-select" className="text-dark fw-bold mouse-hover ms-2 w-sm-50" as={NavLink} to="/login">Login</Nav.Link>}
                         {user?.email && <Navbar.Text className="ms-2 text-primary">

@@ -6,7 +6,7 @@ const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/addSingleProduct', {
+        fetch('https://polar-cove-41231.herokuapp.com/addSingleProduct', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
@@ -23,8 +23,8 @@ const AddProduct = () => {
         console.log(data)
     };
     return (
-        <div className="add-package">
-            <h2>Add Package</h2>
+        <div className="add-product p-3">
+            <h2 className="text-warning">Add Product</h2>
             <form className="form-custom p-3" onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name")} placeholder="Product Model" required /> <br />
                 <input className="mt-2" type="text" {...register("shortdescribe")} placeholder="Shortdescribe" required /> <br />

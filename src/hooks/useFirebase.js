@@ -134,7 +134,7 @@ const useFirebase = () => {
     const saveUser = (email, displayName, method) => {
         const user = {email, displayName};
 
-        fetch('http://localhost:5000/users', {
+        fetch('https://polar-cove-41231.herokuapp.com/users', {
             method: method,
             headers:{'content-type': 'application/json'},
             body: JSON.stringify(user)
@@ -145,7 +145,7 @@ const useFirebase = () => {
 
     //*********For Admin*********** */
     useEffect(() => {
-        const url = `http://localhost:5000/users/${user.email}`
+        const url = `https://polar-cove-41231.herokuapp.com/users/${user.email}`
         fetch(url)
         .then((response) =>response.json())
         .then(result => setAdmin(result.admin))

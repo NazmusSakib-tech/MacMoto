@@ -37,8 +37,8 @@ const Header = () => {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h2>Nature Your Love</h2>
-                            <p>The mountains are calling and I must go</p>
+                            <h2>Bike Your Passion</h2>
+                            <p>We need to go on an adventure road trip</p>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -48,8 +48,8 @@ const Header = () => {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h2>Welcome Beach Lovers</h2>
-                            <p>Only at the beach can we go a splishin’ and a splashin</p>
+                            <h2>Every day is a good day for a ride</h2>
+                            <p>You don’t stop when you get old, You get old when you stop riding</p>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -59,8 +59,8 @@ const Header = () => {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h2>A Journey That You Enjoy</h2>
-                            <p>Do not follow where the path may lead. Go instead where there is no path and leave a trail</p>
+                            <h2>A Ride That You Enjoy</h2>
+                            <p> Keep your bike high and your head higher</p>
                         </div>
                     </div>
                 </div>

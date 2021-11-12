@@ -25,7 +25,7 @@ const ProductDetails = () => {
         data.price = ProductDetails?.price;
         data.status = "Pending";
 
-        fetch(`http://localhost:5000/productDetails/placeOrder`, {
+        fetch(`https://polar-cove-41231.herokuapp.com/productDetails/placeOrder`, {
             method: 'POST',
             headers: { 'content-type': "application/json" },
             body: JSON.stringify(data)
@@ -41,7 +41,7 @@ const ProductDetails = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:5000/bikes/${productID}`)
+        fetch(`https://polar-cove-41231.herokuapp.com/bikes/${productID}`)
             .then((response) => response.json())
             .then(result => setProductDetails(result))
     }, [])
@@ -93,7 +93,7 @@ const ProductDetails = () => {
                                     <input className="mt-2" {...register("email")} placeholder="Email" defaultValue={user.email} required /> <br />
                                     <input className="mt-2" type="number" {...register("number")} placeholder="Mobile" required /> <br />
                                     <input className="mt-2" type="text" {...register("address")} placeholder="Address" required /> <br />
-                                    <input className="bg-warning fw-bold border mt-2" type="submit" value="Checkout Booking" />
+                                    <input className="bg-warning fw-bold border mt-2" type="submit" value="Place Order" />
                                 </form>
                             </div>
                         </Bounce>

@@ -34,6 +34,7 @@ import useAuth from '../../../hooks/useAuth';
 import AdminRoute from '../../Login/AdminRoute/AdminRoute';
 import ManageProducts from '../ManageProducts/ManageProducts';
 import Review from '../Review/Review';
+import Pay from '../Pay/Pay';
 
 const drawerWidth = 240;
 
@@ -112,7 +113,7 @@ export default function DashBoard() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        Persistent drawer
+                        DashBoard
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -136,8 +137,9 @@ export default function DashBoard() {
                 </DrawerHeader>
                 <Divider />
                 <List>
-                    <Link to='/home' style={{ textDecoration: 'none', color: "black", fontWeight: "bold" }}><Button color="inherit">Home</Button></Link>
+                    <Link to='/home'  style={{ textDecoration: 'none', color: "black", fontWeight: "bold" }}><Button color="inherit">Go Home</Button></Link>
                     <Divider />
+                    <Divider sx={{marginBottom: 4}}/>
 
                     {!admin ?
 
@@ -150,7 +152,7 @@ export default function DashBoard() {
                             <Divider />
                             <Link to={`${url}/pay`} style={{ textDecoration: 'none', color: "black", fontWeight: "bold" }}><Button color="inherit">Pay</Button></Link>
                             <br />
-                            <Divider />
+                            
 
                         </Box>
 
@@ -206,8 +208,11 @@ export default function DashBoard() {
                             <Route exact path={`${path}`}>
                                 <MyOrders></MyOrders>
                             </Route>
-                            <Route exact path={`${path}/review`}>
+                            <Route  path={`${path}/review`}>
                                 <Review></Review>
+                            </Route>
+                            <Route  path={`${path}/pay`}>
+                                <Pay></Pay>
                             </Route>
                         </Switch>
                     }

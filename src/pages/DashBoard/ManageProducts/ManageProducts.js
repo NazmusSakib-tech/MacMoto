@@ -8,7 +8,7 @@ const ManageProducts = () => {
 
     // Get ALL product from API
     useEffect(() => {
-        fetch('http://localhost:5000/bikes')
+        fetch('https://polar-cove-41231.herokuapp.com/bikes')
             .then((response) => response.json())
             .then(result => {
                 setManageProducts(result)
@@ -22,7 +22,7 @@ const ManageProducts = () => {
         console.log(id);
         if (window.confirm("Are You Sure")) {
 
-            const url = `http://localhost:5000/deleteProduct/${id}`
+            const url = `https://polar-cove-41231.herokuapp.com/deleteProduct/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

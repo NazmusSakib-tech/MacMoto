@@ -8,7 +8,7 @@ const ManageAllOrders = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/manageAllOrders')
+        fetch('https://polar-cove-41231.herokuapp.com/manageAllOrders')
             .then(res => res.json())
             .then(result => {
 
@@ -23,7 +23,7 @@ const ManageAllOrders = () => {
 
         if (window.confirm("Are You Sure")) {
 
-            const url = `http://localhost:5000/deleteOrder/${id}`
+            const url = `https://polar-cove-41231.herokuapp.com/deleteOrder/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -41,7 +41,7 @@ const ManageAllOrders = () => {
 
     //Update Status of Package
     const handleStatusUpdate = (id, index) => {
-        const url = `http://localhost:5000/updateSingleOrder/${id}`;
+        const url = `https://polar-cove-41231.herokuapp.com/updateSingleOrder/${id}`;
         fetch(url, {
             method: "PUT"
         })
