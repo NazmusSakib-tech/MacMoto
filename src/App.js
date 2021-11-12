@@ -4,7 +4,6 @@ import Home from './pages/Home/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Products from './pages/AllProducts/Products/Products';
 import Footer from './pages/shared/Footer/Footer';
-import Navigation from './pages/shared/Navigation/Navigation';
 import NotFound from './pages/NotFound/NotFound'
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Login from './pages/Login/Login/Login';

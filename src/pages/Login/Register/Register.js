@@ -3,7 +3,7 @@ import Alert from '@mui/material/Alert';
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import { useHistory, useLocation } from 'react-router-dom'
+import { useHistory} from 'react-router-dom'
 
 
 const Register = () => {
